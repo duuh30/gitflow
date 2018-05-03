@@ -24,4 +24,6 @@
 - Branch Release
 > É a branch onde guarda todas as versões da aplicação,nessa branches bugs encontrados durante os testes das features que vão para produção podem ser corrigidos mais tranquilamente, antes de irem efetivamente para produção. 
 
+**Agora que ja sabemos o que é, e o que são cada branch vamos ao** ### Tutorial
+
 
