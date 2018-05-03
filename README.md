@@ -10,6 +10,7 @@
 
 - Branch Developer  
 > É a branch que contém código em nivel de preparação para o próximo deploy. Então todas as features que são finalizadas são juntas com a Branch Developer e testadas, e somente depois a branch developer é preparada para juntar com a branch master. 
+
 **Mas o que é Deploy e Feature?**
 > Deploy é o momento em que você lança uma nova versão da sua aplicação e publica ele no seu Servidor.
 > Feature são as novidades da sua aplicação, no caso são as novas funcionalidades e versões.
