@@ -29,7 +29,9 @@
 
 ### Tutorial básico de git flow
 
-**Primeiro, precisamos ter o Git Flow instalado na máquina. Como se trata de uma extensão ao Git, ele não vem instalado com o Git por padrão e para isso precisamos instalá-lo manualmente em sua máquina** **Então vamos lá!**
+**Primeiro, precisamos ter o Git Flow instalado na máquina. Como se trata de uma extensão ao Git, ele não vem instalado com o Git por padrão e para isso precisamos instalá-lo manualmente em sua máquina** **E para provar que não sou cruel😇 , vamos aprender a instalação agora !**
+
+ 
 
 **Instalação**
 
@@ -59,6 +61,43 @@ https://git-for-windows.github.io/
 ```bash
 wget --no-check-certificate -q  https://raw.github.com/petervanderdoes/gitflow-avh/develop/contrib/gitflow-installer.sh && bash gitflow-installer.sh install stable; rm gitflow-installer.sh
 ```
+
+
+
+**Com o GitFlow instalado em sua máquina, agora vamos aprender a como trabalhar com o Git Flow**
+
+**Inicialização**
+Vamos iniciar o Git Flow com a seguinte instrução
+```bash
+git flow init
+```
+
+**Agora com a inicialização feita, que tal criar uma Nova Feature?**
+```bash
+git flow feature start NOME_DA_FEATURE
+```
+> **Lembrando** ao criar uma nova Feature ela começa no seu Branch Atual.
+
+**Agora com sua nova feature feita, vamos publicar no Git?**
+Sei que você esta ansioso para ver a mágica acontecer, então use a seguinte instrução!
+```bash
+git flow feature publish NOME_DA_FEATURE
+```
+
+**Que tal obter uma nova Funcionalidade? Um Pull**
+> Sei que você esta se perguntando o que danados são um **PULL**.
+Então um pull é um mecanismo onde cada desenvolvedor pode gerar uma notificação de conclusão de uma feature qualquer. Isso permite que todos os envolvidos saibam oque esta se passando.
+
+Então utilizamos a seguinte instrução!
+```bash
+git flow feature pull NOME_DA_FEATURE
+```
+**E agora vamos finalizar a funcionalidade, pois não se saiu como esperado :(**
+Para finalizar a feature feita com tanto carinho, use a instrução abaixo !
+```bash
+git flow feature finish NOME_DA_FEATURE
+```
+
 
 
 
