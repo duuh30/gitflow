@@ -24,6 +24,41 @@
 - Branch Release
 > É a branch onde guarda todas as versões da aplicação,nessa branches bugs encontrados durante os testes das features que vão para produção podem ser corrigidos mais tranquilamente, antes de irem efetivamente para produção. 
 
-**Agora que ja sabemos o que é, e o que são cada branch vamos ao** ### Tutorial
+**Agora que ja sabemos o que é, e o que são cada branch vamos ao Tutorial**
+
+
+### Tutorial básico de git flow
+
+**Primeiro, precisamos ter o Git Flow instalado na máquina. Como se trata de uma extensão ao Git, ele não vem instalado com o Git por padrão e para isso precisamos instalá-lo manualmente em sua máquina** **Então vamos lá!**
+
+**Instalação**
+
+**Ubuntu/Debian-based**
+```bash
+sudo apt-get install git-flow
+```
+
+
+**Mac OS X**
+```bash
+brew install git-flow-avh
+```
+
+
+**Windows**
+*(Cygwin)*
+```bash
+wget -q -O - --no-check-certificate https://raw.github.com/petervanderdoes/gitflow-avh/develop/contrib/gitflow-installer.sh install stable | bash
+```
+*Ou*
+```bash
+https://git-for-windows.github.io/
+```
+
+**Caso tenha mais alguma dúvida existe um Manual de instruções, que pode ser acessado**
+```bash
+wget --no-check-certificate -q  https://raw.github.com/petervanderdoes/gitflow-avh/develop/contrib/gitflow-installer.sh && bash gitflow-installer.sh install stable; rm gitflow-installer.sh
+```
+
 
 
