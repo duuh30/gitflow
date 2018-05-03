@@ -19,4 +19,9 @@
 > Como dito acima são branches que são desenvolvidas novas funcionalidades para o projeto em execução. Essas branches são criadas a partir da branch develop, e ao final, são juntas a branch Develop.
 
 - Branch Hotfix
+> São as branches onde são realizadas todos os tipos de correções de erros críticos encontrado nos projetos em execução. Onde esses tipos de branches são criadas pela **Branch Master**, e logo após as correções são juntas a **Branch Master** e a **Branch Developer**, pois os próximos deploys devem receber as correções dos Bugs.
+
+- Branch Release
+> É a branch onde guarda todas as versões da aplicação,nessa branches bugs encontrados durante os testes das features que vão para produção podem ser corrigidos mais tranquilamente, antes de irem efetivamente para produção. 
+
 
