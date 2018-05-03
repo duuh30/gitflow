@@ -64,7 +64,7 @@ wget --no-check-certificate -q  https://raw.github.com/petervanderdoes/gitflow-a
 
 
 
-**Com o GitFlow instalado em sua máquina, agora vamos aprender a como trabalhar com o Git Flow**
+## Com o GitFlow instalado em sua máquina, agora vamos aprender a como trabalhar com o Git Flow 
 
 **Inicialização**
 Vamos iniciar o Git Flow com a seguinte instrução
@@ -93,11 +93,50 @@ Então utilizamos a seguinte instrução!
 git flow feature pull NOME_DA_FEATURE
 ```
 **E agora vamos finalizar a funcionalidade, pois não se saiu como esperado :(**
+
 Para finalizar a feature feita com tanto carinho, use a instrução abaixo !
 ```bash
 git flow feature finish NOME_DA_FEATURE
 ```
 
+## Agora vamos trabalhar com as novas versões as Releases 
+Você acha que vai ter mais uma dor de cabeça decorando instruções? Nãooooo !
+São as mesmas intruções so muda em qual determinada Branch você esta. Vamos lá
+
+**Começar uma nova versão**
+```bash
+git flow release start NOME_DA_VERSAO
+```
+> **Lembrando** a nova versão é criada baseado na branch Developer.
+
+**Agora você esta feliz, a versão foi corrigida não existe erros e bugs !** **Vamos Publicar**
+**Publicando a versão**
+```bash
+git flow release publish NOME_DA_VERSAO
+```
+
+**Caso precise finalizar a versão**
+```bash
+git flow release finish NOME_DA_VERSAO
+```
+> **Lembrando** em toda finalização em qualquer branch que esteja, ela corta todos os vínculos.
 
 
+## Vamos Trabalhar com a Branch HotFix 
+Os Hotfix são feitos para agir imediatamente sobre determinada situação que cause situações indesejadas na versão de aplicação em execução.
+
+**Vamos criar um HotFix**
+```bash
+git flow hotfix start NOME_DO_HOTFIX
+```
+
+> Após a criação de um hotfix, e criado baseado na branch master
+> O nome do hotfix e a marcação da versão que apresentou defeitos na execução.
+
+**Finalizando um HotFix**
+```bash
+git flow hotfix finish MEU_HOTFIX
+```
+
+# Qual a importância de utilizar o Github Flow?
 
