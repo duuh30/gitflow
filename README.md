@@ -15,7 +15,7 @@
 ### Criar Branching ou Ramificações
  > Branch ou ramificações é uma parte essencial para o gerenciamento do desenvolvimento paralelo. Onde utiliza-se o Git que é o sistema de controle de versão do Github, que permite criar,destruir e combinar ramificações com o mínino de complexidade. Assim, as ramificações podem existir por quanto tempo você precisar. Quando você cria uma nova ramificação em seu projeto, está criando um ambiente em que você pode experimentar novas ideias, onde suas alterações não afetam sua ramificação Master. Então você está livre para experimentar e confirmar alterações.
  
-### Adicionar os commits**
+### Adicionar os commits
  > Depois que você cria uma ramificação, é hora de fazer alterações. Então sempre que você adiciona,edita ou exclui um arquivo, você está fazendo um commit e adicionando. 
  
  **Porque adicionar os Commits?**
@@ -29,6 +29,34 @@
  
  **E se não for aprovado?**
  > Se sua alteração não for aprovada, o pedido permanece intacto no Github para futuras referências. Como um registro do processo de tomada de decisão em torno desse conjunto de mudanças.
+
+**E se foi aprovada?**
+
+### Discutir e analisar seu código
+
+> Depois que sua soliticação for aberta, a pessoa ou a equipe que estiver analisando suas alterações poderá realizar perguntas e comentários. Talvez o estilo em que a alteração foi codificada não atende os parametros estabelecidos do projeto, a mudança feita não tenha testes, ou talvez tudo pode ser implementado. 
+
+**Mas e se houver bugs? Se eu esqueci de algo?**
+> Se alguém comentar que você esqueceu de faze algo ou se houver um bug no seu código, você pode corrigi-los, e o Github mostrará seus novos commits e qualquer feedback adicional que possa receber na visualização.
+
+### Fase de implantação
+> Quando suas alterações passarem pelo processo de análise e discussão, você está com livre acesso para implementar seu código de alteração da ramificação de recursos para a produção, se precisar. 
+
+**Mas e se minha implantação causou problemas?**
+> Caso tenha causado problemas, você poderá recupará-la implantando a ramificação Principal existente na produção.
+
+### Fase de Mesclagem
+
+**O que é a fase de mesclagem?**
+> É a fase onde suas alterações ja passaram por discussão, revisão de códigos, erros críticos,bugs etc. Então é hora de mesclar seu código a ramificação Principal. 
+
+**Mas se caso eu esqueci o porque dessa mesclagem?**
+> O Pull Request guarda um registro das alterações do seu código. Então permite que volte no tempo para entender o porque e como foi a tomada de decisão para a implantação daquela alteração na ramificação Principal.
+
+**Então depois de tudo oque acontece?**
+> Então, depois de mesclar a sua antiga ramificação salva as alterações, onde ela pode voltar para entender oque aconteceu. Então a partir dai pode-se deletar essa ramificação feita apenas para a alteração que ja foi implantada na ramificação principal. Ou seja, a ramificação principal junta-se com as alterações. 
+
+
 
 
 **Qual a importância de utilizar o GitHub Flow ?**
