@@ -5,7 +5,7 @@
 
 > Também conhecido como GitHub WorkFlow, o GitHub Flow teve como sua base o Git Flow. Onde foram criadas variações de sua ferramenta como Gitlab Flow, Gitbucket Flow.
 
-**Deseja conhecer mais sobre o Git Flow?** [Clique Aqui](https://github.com/duuh30/gitflow/blob/master/introgitflow.md)
+**Mais informações sobre o Git Flow** [Clique Aqui](https://github.com/duuh30/gitflow/blob/master/introgitflow.md)
 
 ## Começado com GitHub Flow
 
