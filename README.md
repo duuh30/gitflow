@@ -12,6 +12,9 @@
 **Falando um Pouco mais sobre o Github Flow**
 > No Github Flow seu projeto tem uma branch master singular,onde todo trabalho desenvolvido e liberado vive em todo o processo. Então oque é esse processo e como funciona ? **Vamos Conhecer? Vamos lá !!**
 
+!(https://imgur.com/a/iSRuHQr)
+
+
 ### Criar Branching ou Ramificações
  > Branch ou ramificações é uma parte essencial para o gerenciamento do desenvolvimento paralelo. Onde utiliza-se o Git que é o sistema de controle de versão do Github, que permite criar,destruir e combinar ramificações com o mínino de complexidade. Assim, as ramificações podem existir por quanto tempo você precisar. Quando você cria uma nova ramificação em seu projeto, está criando um ambiente em que você pode experimentar novas ideias, onde suas alterações não afetam sua ramificação Master. Então você está livre para experimentar e confirmar alterações.
  
