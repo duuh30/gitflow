@@ -7,10 +7,28 @@
 
 **Deseja conhecer mais sobre o Git Flow?** [Clique Aqui](https://github.com/duuh30/gitflow/blob/master/introgitflow.md)
 
-**Começado com GitHub Flow**
+#Começado com GitHub Flow
 
-**Branching ou Ramificações**
- > Branch ou ramificações é uma parte essencial para o gerenciamento do desenvolvimento paralelo.
+**Falando um Pouco mais sobre o Github Flow**
+> No Github Flow seu projeto tem uma branch master singular,onde todo trabalho desenvolvido e liberado vive em todo o processo. Então oque é esse processo e como funciona ? **Vamos Conhecer? Vamos lá !!**
+
+###Criar Branching ou Ramificações
+ > Branch ou ramificações é uma parte essencial para o gerenciamento do desenvolvimento paralelo. Onde utiliza-se o Git que é o sistema de controle de versão do Github, que permite criar,destruir e combinar ramificações com o mínino de complexidade. Assim, as ramificações podem existir por quanto tempo você precisar. Quando você cria uma nova ramificação em seu projeto, está criando um ambiente em que você pode experimentar novas ideias, onde suas alterações não afetam sua ramificação Master. Então você está livre para experimentar e confirmar alterações.
+ 
+###Adicionar os commits**
+ > Depois que você cria uma ramificação, é hora de fazer alterações. Então sempre que você adiciona,edita ou exclui um arquivo, você está fazendo um commit e adicionando. 
+ 
+ **Porque adicionar os Commits?**
+ > É essencial para o gerenciamento do novo recurso que esta sendo desenvolvimento, onde a adição desses commits acompanham seu progresso enquanto você trabalha em novos recursos. Além disso, cada commit realizado é considerado uma unidade separada de mudança. Isso permite remover alterações se um Bug crítico for encontrado ou se deseja seguir uma nova alteração de recurso.
+ 
+ ###Abrir um Pedido de Pull Request
+ > Oque são esse Pull Request? São um pedido de discussão sobre seus Commits. 
+ 
+ **Mas como assim?**
+ > Seus commits eles entram e um estado de périodo probatório,onde suas mudanças estão em analise de aprovação. Para que assim possam revisá-los e discuti-los antes de implantar sua alteração.
+ 
+ **E se não for aprovado?**
+ > Se sua alteração não for aprovada, o pedido permanece intacto no Github para futuras referências. Como um registro do processo de tomada de decisão em torno desse conjunto de mudanças.
 
 
 **Qual a importância de utilizar o GitHub Flow ?**
