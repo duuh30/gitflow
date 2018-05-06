@@ -1,8 +1,8 @@
-# Trabalhando com Git Flow
+# Trabalhando com GitHub Flow
 
-**O que é o GIT FLOW?**
+**O que é o GITHUB FLOW?**
 > O GitHub Flow é um fluxo de trabalho leve, baseado em filiais e grupos, que oferece suporte a equipes e projetos nos quais as implantações são feitas regularmente. 
-> Trata-se de um modelo de organização de branches (ramificações), isto significa que Git Flow estabelece regras e nomenclaturas para cada tipo de Branches, que define o que cada branch e capaz de realizar.
+> Também conhecido como GitHub WorkFlow, 
 
 **Vamos conhecer algumas delas?**  **Vamos Lá!**
 - Branch Master
