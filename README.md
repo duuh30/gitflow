@@ -74,6 +74,7 @@
 **Qual a importância de utilizar o GitHub Flow ?**
 
 > Gerenciar uma mudança pode se tornar um desafio, especialmente para desenvolvimento. É um processo onde muitas pessoas trabalhando em paralelo. O Github Flow atua no controle e sequência de eventos para garantir que cada pessoa utilize a melhor ferramenta no momento certo.Na verdade o GitHub Flow é o gerenciamento de mudanças de processos e pessoas, otimizando para aumentar a produtividade da equipe. O GitHub Flow oferece a flexibilidade para tomar uma decisão de trabalho,onde tudo que é desenvolvido e implementado em sua Branch Master( o Centro do seu Desenvolvimento),onde ele oferece ferramentas de fácil utilização para gerenciar mudanças do seu projeto. 
+Contudo, hoje em dia aprender GitHub Flow e qualquer outra tecnologia baseada em Git não é apenas um Dever para o Profissional de Tecnologia, não é apenas se manter Atualizado com o mercado e sim se Manter antenado as evoluções da Tecnologia.
 
 
 
