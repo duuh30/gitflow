@@ -9,6 +9,8 @@
 
 ## Começado com GitHub Flow
 
+![Imagem](https://github.com/duuh30/gitflow/blob/master/images/fluxogithubflow.png)
+
 **Falando um Pouco mais sobre o Github Flow**
 > No Github Flow seu projeto tem uma branch master singular,onde todo trabalho desenvolvido e liberado vive em todo o processo. Então oque é esse processo e como funciona ? **Vamos Conhecer? Vamos lá !!**
 
