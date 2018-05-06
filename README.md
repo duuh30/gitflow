@@ -9,7 +9,7 @@
 
 ## Começado com GitHub Flow
 
-![Imagem](https://github.com/duuh30/gitflow/blob/master/images/fluxogithubflow.png)
+![Imagem](https://github.com/duuh30/gitflow/blob/master/images/githubflow.png)
 
 **Falando um Pouco mais sobre o Github Flow**
 > No Github Flow seu projeto tem uma branch master singular,onde todo trabalho desenvolvido e liberado vive em todo o processo. Então oque é esse processo e como funciona ? **Vamos Conhecer? Vamos lá !!**
@@ -19,14 +19,19 @@
 ### Criar Branching ou Ramificações
  > Branch ou ramificações é uma parte essencial para o gerenciamento do desenvolvimento paralelo. Onde utiliza-se o Git que é o sistema de controle de versão do Github, que permite criar,destruir e combinar ramificações com o mínino de complexidade. Assim, as ramificações podem existir por quanto tempo você precisar. Quando você cria uma nova ramificação em seu projeto, está criando um ambiente em que você pode experimentar novas ideias, onde suas alterações não afetam sua ramificação Master. Então você está livre para experimentar e confirmar alterações.
  
+ ![Imagem](https://github.com/duuh30/gitflow/blob/master/images/fluxogithubflow.png)
+ 
 ### Adicionar os commits
  > Depois que você cria uma ramificação, é hora de fazer alterações. Então sempre que você adiciona,edita ou exclui um arquivo, você está fazendo um commit e adicionando. 
+ 
+ https://github.com/duuh30/gitflow/blob/master/images/commits.png
  
  **Porque adicionar os Commits?**
  > É essencial para o gerenciamento do novo recurso que esta sendo desenvolvimento, onde a adição desses commits acompanham seu progresso enquanto você trabalha em novos recursos. Além disso, cada commit realizado é considerado uma unidade separada de mudança. Isso permite remover alterações se um Bug crítico for encontrado ou se deseja seguir uma nova alteração de recurso.
  
  ### Abrir um Pedido de Pull Request
  > Oque são esse Pull Request? São um pedido de discussão sobre seus Commits. 
+ https://github.com/duuh30/gitflow/blob/master/images/pull.png
  
  **Mas como assim?**
  > Seus commits eles entram e um estado de périodo probatório,onde suas mudanças estão em analise de aprovação. Para que assim possam revisá-los e discuti-los antes de implantar sua alteração.
@@ -39,12 +44,14 @@
 ### Discutir e analisar seu código
 
 > Depois que sua soliticação for aberta, a pessoa ou a equipe que estiver analisando suas alterações poderá realizar perguntas e comentários. Talvez o estilo em que a alteração foi codificada não atende os parametros estabelecidos do projeto, a mudança feita não tenha testes, ou talvez tudo pode ser implementado. 
+https://github.com/duuh30/gitflow/blob/master/images/discuss.png
 
 **Mas e se houver bugs? Se eu esqueci de algo?**
 > Se alguém comentar que você esqueceu de faze algo ou se houver um bug no seu código, você pode corrigi-los, e o Github mostrará seus novos commits e qualquer feedback adicional que possa receber na visualização.
 
 ### Fase de implantação
 > Quando suas alterações passarem pelo processo de análise e discussão, você está com livre acesso para implementar seu código de alteração da ramificação de recursos para a produção, se precisar. 
+https://github.com/duuh30/gitflow/blob/master/images/deploy.png
 
 **Mas e se minha implantação causou problemas?**
 > Caso tenha causado problemas, você poderá recupará-la implantando a ramificação Principal existente na produção.
@@ -53,6 +60,7 @@
 
 **O que é a fase de mesclagem?**
 > É a fase onde suas alterações ja passaram por discussão, revisão de códigos, erros críticos,bugs etc. Então é hora de mesclar seu código a ramificação Principal. 
+https://github.com/duuh30/gitflow/blob/master/images/merge.png
 
 **Mas se caso eu esqueci o porque dessa mesclagem?**
 > O Pull Request guarda um registro das alterações do seu código. Então permite que volte no tempo para entender o porque e como foi a tomada de decisão para a implantação daquela alteração na ramificação Principal.
