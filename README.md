@@ -12,7 +12,6 @@
 **Falando um Pouco mais sobre o Github Flow**
 > No Github Flow seu projeto tem uma branch master singular,onde todo trabalho desenvolvido e liberado vive em todo o processo. Então oque é esse processo e como funciona ? **Vamos Conhecer? Vamos lá !!**
 
-!(https://imgur.com/a/iSRuHQr)
 
 
 ### Criar Branching ou Ramificações
